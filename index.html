@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REVEALS - Panel Elevation & Takeoff Tool</title>
+    <meta name="description" content="An interactive drawing tool to label elevation panels, group identical dimensions, and assign consecutive serial names." />
+    <meta property="og:title" content="REVEALS - Panel Elevation & Takeoff Tool" />
+    <meta property="og:description" content="An interactive drawing tool to label elevation panels, group identical dimensions, and assign consecutive serial names." />
+    <!-- PDF.js CDN for client-side PDF rendering -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.min.js"></script>
+    <script>
+      pdfjsLib.GlobalWorkerOptions.workerSrc = 'https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.4.120/pdf.worker.min.js';
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
